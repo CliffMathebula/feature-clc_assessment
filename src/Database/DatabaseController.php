@@ -15,7 +15,7 @@ class DatabaseController
 
     private $dbhost = "localhost"; // Ip Address of database if external connection.
     private $dbuser = "root"; // Username for DB
-    private $dbpass = "1989@Cliff"; // Password for DB
+    private $dbpass = "test"; // Password for DB
     private $dbname = "clc_database"; // DB Name
 
     /*
