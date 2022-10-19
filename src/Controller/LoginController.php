@@ -21,7 +21,7 @@ class LoginController
         }
 
         //$arr = [];
-        $stmt = $this->conn->prepare("SELECT * FROM users WHERE user_name <= ?");
+        $stmt = $this->conn->prepare("SELECT * FROM users WHERE user_name = ?");
         $stmt->execute([$username]);
 
         while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
